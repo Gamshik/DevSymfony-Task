@@ -1,6 +1,6 @@
 # Numbers App
 
-![Скриншот главной страницы Numbers App](https://github.com/Gamshik/DevSymfony-Task/screen/app-preview.png)
+![Скриншот главной страницы Numbers App](https://github.com/Gamshik/DevSymfony-Task/app-preview.png)
 
 ## Описание Проекта
 
