@@ -1,0 +1,97 @@
+.facts-display-container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+}
+
+.facts-display-title {
+  color: #1a202c;
+  margin-bottom: 30px;
+  font-size: 2.8em;
+  font-weight: 700;
+}
+
+.facts-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 25px;
+  padding: 0 15px;
+  margin-bottom: 40px;
+}
+
+.fact-item-card {
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.fact-item-title {
+  color: #007bff;
+  font-size: 1.4em;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.fact-item-original-number {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+.fact-item-text {
+  font-size: 1.1em;
+  color: #444;
+  line-height: 1.6;
+  flex-grow: 1;
+}
+
+.fact-item-type {
+  font-size: 0.9em;
+  color: #888;
+  font-weight: 500;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.no-facts-message-display {
+  color: #777;
+  font-size: 1.2em;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.back-button-container {
+  margin-top: 30px;
+}
+
+.back-to-home-button {
+  display: inline-block;
+  background-color: #6c757d;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 600;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+.back-to-home-button:hover {
+  background-color: #5a6268;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}

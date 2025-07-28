@@ -1,0 +1,74 @@
+/* src/index.css */
+/* Базовые стили для всего приложения */
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif; /* Более современный шрифт */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #e9ecef; /* Светлый фон для всего приложения */
+  color: #343a40;
+  line-height: 1.6;
+  min-height: 100vh; /* Минимальная высота для красивого футера/фона */
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-size: 1em;
+  transition: background-color 0.2s ease, transform 0.1s ease,
+    box-shadow 0.2s ease;
+  font-weight: 600;
+}
+
+button:hover:not(:disabled) {
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+button:active:not(:disabled) {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+input[type="text"],
+select {
+  padding: 10px 12px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 1em;
+  color: #495057;
+  box-sizing: border-box;
+  background-color: #ffffff;
+}
+
+input[type="text"]::placeholder {
+  color: #6c757d;
+}
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+a.button-link {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+.fact-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  word-wrap: break-word;
+}
+
+.fact-card-input-info {
+  font-size: 0.9em;
+  color: #555;
+  font-weight: 500;
+}
+
+.fact-card-original-number {
+  font-size: 0.85em;
+  color: #777;
+  font-style: italic;
+}
+
+.fact-card-text {
+  font-size: 1.1em;
+  color: #333;
+  line-height: 1.5;
+}
+
+.fact-card-remove-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  align-self: flex-end;
+  font-size: 0.9em;
+  transition: background-color 0.2s ease;
+}
+
+.fact-card-remove-button:hover {
+  background-color: #c82333;
+}
